@@ -1,7 +1,7 @@
 // main.dart
 
 import 'package:admain/core/theme/app_Theme.dart';
-import 'package:admain/features/admain/presentation/bloc/auth_bloc.dart';
+import 'package:admain/features/home/presentation/bloc/auth_bloc.dart';
 import 'package:admain/routes/module.dart';
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';

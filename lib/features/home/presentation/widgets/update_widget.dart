@@ -1,4 +1,4 @@
-// features/admain/presentation/widgets/update_widget.dart
+// features/home/presentation/widgets/update_widget.dart
 
 // ignore_for_file: non_constant_identifier_names
 
@@ -37,7 +37,7 @@ class UpdateWidget extends StatelessWidget {
   ];
   List<String> UpdateWidgets = [
     AppRoutes.updateCategoryScreen, //
-    AppRoutes.updateSubCategoryScreen,
+    AppRoutes.updateSupCategoryScreen,
     AppRoutes.updateCategoryScreen,
     AppRoutes.updateProductScreen,
   ];

@@ -1,20 +1,20 @@
 // routes/modular_routes.dart
 // ignore_for_file: prefer_const_constructors// ignore_for_file: prefer_const_constructors, prefer_const_constructors
-import 'package:admain/features/admain/presentation/pages/all_user_screen.dart';
-import 'package:admain/features/admain/presentation/pages/delete_account_screen.dart';
-import 'package:admain/features/admain/presentation/pages/delete_category_screen.dart';
-import 'package:admain/features/admain/presentation/pages/delete_product.dart';
-import 'package:admain/features/admain/presentation/pages/delete_sub_category_screen.dart';
-import 'package:admain/features/admain/presentation/pages/home_layout.dart';
-import 'package:admain/features/admain/presentation/pages/show_all_category.dart';
-import 'package:admain/features/admain/presentation/pages/show_all_users.dart';
-import 'package:admain/features/admain/presentation/pages/show_subCategory.dart';
-import 'package:admain/features/admain/presentation/pages/update_sub_category_Screen.dart';
-import 'package:admain/features/admain/presentation/widgets/add_category.dart';
-import 'package:admain/features/admain/presentation/widgets/add_product.dart';
-import 'package:admain/features/admain/presentation/widgets/add_subCategory.dart';
-import 'package:admain/features/admain/presentation/widgets/update_category.dart';
-import 'package:admain/features/admain/presentation/widgets/update_product.dart';
+import 'package:admain/features/home/presentation/pages/update_sub_category_Screen.dart';
+import 'package:admain/features/show/presentation/pages/show_all_products.dart';
+import 'package:admain/features/delete/presentation/pages/delete_account_screen.dart';
+import 'package:admain/features/delete/presentation/pages/delete_category_screen.dart';
+import 'package:admain/features/delete/presentation/pages/delete_product.dart';
+import 'package:admain/features/delete/presentation/pages/delete_sub_category_screen.dart';
+import 'package:admain/features/home/presentation/pages/home_layout.dart';
+import 'package:admain/features/show/presentation/pages/show_all_category.dart';
+import 'package:admain/features/show/presentation/pages/show_all_users.dart';
+import 'package:admain/features/show/presentation/pages/show_subCategory.dart';
+import 'package:admain/features/add/presentation/pages/add_category.dart';
+import 'package:admain/features/add/presentation/pages/add_product.dart';
+import 'package:admain/features/add/presentation/pages/add_subCategory.dart';
+import 'package:admain/features/update/presentation/pages/update_category.dart';
+import 'package:admain/features/update/presentation/pages/update_product.dart';
 import 'package:admain/routes/routes_names.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:modular_interfaces/src/route/modular_arguments.dart';
@@ -32,11 +32,7 @@ List<ModularRoute> modularRoutes = <ChildRoute<dynamic>>[
     child: (_, ModularArguments args) =>   AddSubCategory(),
     transition: TransitionType.upToDown,
   ),
-  ChildRoute<dynamic>(
-    AppRoutes.updateSubCategoryScreen,
-    child: (_, ModularArguments args) =>   UpdateSubCategoryScreen(),
-    transition: TransitionType.upToDown,
-  ),
+  
   ChildRoute<dynamic>(
     AppRoutes.deleteSubCategoryScreen,
     child: (_, ModularArguments args) =>   DeleteSubCategoryScreen(),
@@ -75,7 +71,7 @@ List<ModularRoute> modularRoutes = <ChildRoute<dynamic>>[
   ),
   ChildRoute<dynamic>(
     AppRoutes.updateSupCategoryScreen,
-    child: (_, ModularArguments args) =>   UpdateSubCategoryScreen(),
+    child: (_, ModularArguments args) =>   UpdateSupCategory(),
     transition: TransitionType.upToDown,
   ),
   ChildRoute<dynamic>(

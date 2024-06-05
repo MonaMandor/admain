@@ -1,10 +1,10 @@
-// features/admain/presentation/pages/delet_screen.dart
+// features/delete/presentation/pages/delet_screen.dart
 
 
 
 import 'package:admain/core/shared/shared_widget/txt.dart';
 import 'package:admain/core/theme/app_colors.dart';
-import 'package:admain/features/admain/presentation/widgets/delete_widget.dart';
+import 'package:admain/features/delete/presentation/widgets/delete_widget.dart';
 import 'package:flutter/material.dart';
 
 class DeleteScreen extends StatelessWidget {

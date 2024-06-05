@@ -1,13 +1,13 @@
-// features/admain/presentation/pages/home_layout.dart
+// features/home/presentation/pages/home_layout.dart
 // ignore_for_file: use_key_in_widget_constructors// ignore_for_file: use_key_in_widget_constructors
 import 'package:admain/core/constansts/asset_manger.dart';
 import 'package:admain/core/constansts/context_extensions.dart';
 import 'package:admain/core/theme/app_Theme.dart';
 import 'package:admain/core/theme/app_colors.dart';
-import 'package:admain/features/admain/presentation/pages/add_screen.dart';
-import 'package:admain/features/admain/presentation/pages/all_user_screen.dart';
-import 'package:admain/features/admain/presentation/pages/delet_screen.dart';import 'package:admain/features/admain/presentation/pages/show_screen.dart';
-import 'package:admain/features/admain/presentation/pages/update_screen.dart';
+import 'package:admain/features/add/presentation/pages/add_screen.dart';
+import 'package:admain/features/show/presentation/pages/show_all_products.dart';
+import 'package:admain/features/delete/presentation/pages/delet_screen.dart';import 'package:admain/features/show/presentation/pages/show_screen.dart';
+import 'package:admain/features/update/presentation/pages/update_screen.dart';
 import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

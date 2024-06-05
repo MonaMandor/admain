@@ -1,4 +1,4 @@
-// features/admain/presentation/widgets/tabe_wadget.dart
+// features/home/presentation/widgets/tabe_wadget.dart
 
 // ignore_for_file: non_constant_identifier_names
 
@@ -37,7 +37,7 @@ class HomeTapWidget extends StatelessWidget {
   ];
   List<String> HomeTapWidgets = [
     AppRoutes.addCategory, //
-    AppRoutes.updateSubCategoryScreen,
+    AppRoutes.updateSupCategoryScreen,
     AppRoutes.deleteSubCategoryScreen,
     AppRoutes.showAllProducts,
   ];

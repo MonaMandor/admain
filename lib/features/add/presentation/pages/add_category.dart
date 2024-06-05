@@ -1,4 +1,4 @@
-// features/admain/presentation/widgets/add_category.dart
+// features/add/presentation/pages/add_category.dart
 
 import 'package:admain/core/constansts/context_extensions.dart';
 import 'package:admain/core/shared/shared_widget/Custom_button.dart';
@@ -7,9 +7,9 @@ import 'package:admain/core/shared/shared_widget/custom_category_filed.dart';
 import 'package:admain/core/shared/shared_widget/txt.dart';
 import 'package:admain/core/theme/app_Theme.dart';
 import 'package:admain/core/theme/app_colors.dart';
-import 'package:admain/features/admain/presentation/bloc/auth_bloc.dart';
-import 'package:admain/features/admain/presentation/widgets/image_widget.dart';
-import 'package:admain/features/admain/presentation/widgets/sub_category.dart';
+import 'package:admain/features/home/presentation/bloc/auth_bloc.dart';
+import 'package:admain/features/home/presentation/widgets/image_widget.dart';
+import 'package:admain/features/home/presentation/widgets/sub_category.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

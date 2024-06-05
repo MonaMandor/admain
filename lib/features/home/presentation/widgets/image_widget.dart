@@ -1,4 +1,4 @@
-// features/admain/presentation/widgets/image_widget.dart
+// features/home/presentation/widgets/image_widget.dart
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'dart:io';
@@ -7,8 +7,8 @@ import 'package:admain/core/constansts/asset_manger.dart';
 import 'package:admain/core/constansts/context_extensions.dart';
 import 'package:admain/core/theme/app_Theme.dart';
 import 'package:admain/core/theme/app_colors.dart';
-import 'package:admain/features/admain/presentation/bloc/auth_bloc.dart';
-import 'package:admain/features/admain/presentation/widgets/image_Button.dart';
+import 'package:admain/features/home/presentation/bloc/auth_bloc.dart';
+import 'package:admain/features/home/presentation/widgets/image_Button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

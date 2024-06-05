@@ -1,10 +1,10 @@
-// features/admain/presentation/pages/show_screen.dart
+// features/show/presentation/pages/show_screen.dart
 
 
 
 import 'package:admain/core/shared/shared_widget/txt.dart';
 import 'package:admain/core/theme/app_colors.dart';
-import 'package:admain/features/admain/presentation/widgets/show_widget.dart';
+import 'package:admain/features/show/presentation/widgets/show_widget.dart';
 import 'package:flutter/material.dart';
 
 class ShowScreen extends StatelessWidget {
