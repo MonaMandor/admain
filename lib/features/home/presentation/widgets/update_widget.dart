@@ -8,7 +8,7 @@ import 'package:admain/core/theme/app_Theme.dart';
 import 'package:admain/core/theme/app_colors.dart';
 import 'package:admain/routes/routes_names.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -28,7 +28,7 @@ class UpdateWidget extends StatelessWidget {
 
   List<String> servicesNames = [
     //Strings.favorite,
-    'Auction ',
+    'Product ',
     'SubCategory ',
     'Category ',
     ' Product',
@@ -36,7 +36,7 @@ class UpdateWidget extends StatelessWidget {
     // Add more names for each tab
   ];
   List<String> UpdateWidgets = [
-    AppRoutes.updateCategoryScreen, //
+    AppRoutes.updateProductScreen, //
     AppRoutes.updateSupCategoryScreen,
     AppRoutes.updateCategoryScreen,
     AppRoutes.updateProductScreen,

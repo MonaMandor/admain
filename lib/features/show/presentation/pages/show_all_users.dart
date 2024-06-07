@@ -1,4 +1,4 @@
-// features/admain/presentation/pages/show_all_users.dart
+// features/show/presentation/pages/show_all_users.dart
 import 'package:admain/core/constansts/context_extensions.dart';
 import 'package:admain/core/shared/shared_widget/txt.dart';
 import 'package:admain/core/theme/app_colors.dart';
@@ -24,7 +24,7 @@ class _ShowSubCategoryState extends State<ShowAllUsers> {
            
         },
         {
-           
+           "id": "6661d830c67fcf3987d9863b",
             "firstName": "ashraf",
             "lastName": "mode",
             "userName": "modeashraf",
@@ -35,7 +35,7 @@ class _ShowSubCategoryState extends State<ShowAllUsers> {
            
         },
         {
-           
+           "id": "6661d830c67fcf3987d9863b",
             "firstName": "popoppo",
             "lastName": "popd",
             "userName": "popppppp",
@@ -46,7 +46,7 @@ class _ShowSubCategoryState extends State<ShowAllUsers> {
             
         },
         {
-           
+           "id": "6661d830c67fcf3987d9863b",
             "firstName": "hazem",
             "lastName": "ghanem",
             "userName": "Hazem00",
@@ -57,7 +57,7 @@ class _ShowSubCategoryState extends State<ShowAllUsers> {
             
         },
         {
-           
+           "id": "6661d830c67fcf3987d9863b",
             "firstName": "Ashraf",
             "lastName": "khaled",
             "userName": "khaled Ashraf",
@@ -68,7 +68,7 @@ class _ShowSubCategoryState extends State<ShowAllUsers> {
             
         },
         {
-            
+            "id": "6661d830c67fcf3987d9863b",
             "firstName": "Hazem",
             "lastName": "Ghanem",
             "userName": "Hazem55",
@@ -182,6 +182,19 @@ class _ShowSubCategoryState extends State<ShowAllUsers> {
                                   fontWeight: FontWeight.w500),
                             ),
                             txt(JasonList[index]['phone'], Colors.black, 20, false),
+                          ],
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              'ID: ',
+                              style: TextStyle(
+                                  fontSize: 25,
+                                  color: AppColors.primaryColor,
+                                  fontWeight: FontWeight.w500),
+                            ),
+                            txt(JasonList[index]['id'], Colors.black, 20, false),
                           ],
                         ),
                   

@@ -41,7 +41,7 @@ class IdFiled  extends StatelessWidget {
           fillColor: const Color(0xFFF7F9FA),
     
           controller: controller,
-          keyboardType: TextInputType.number,
+          keyboardType: TextInputType.text,
           
          validator: (value) {
             if (value!.isEmpty) {

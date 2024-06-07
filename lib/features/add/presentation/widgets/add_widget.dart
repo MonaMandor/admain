@@ -1,4 +1,4 @@
-// features/admain/presentation/widgets/add_widget.dart
+// features/add/presentation/widgets/add_widget.dart
 
 // ignore_for_file: non_constant_identifier_names
 
@@ -28,7 +28,7 @@ class AddWidget extends StatelessWidget {
 
   List<String> servicesNames = [
     //Strings.favorite,
-    'Auction ',
+    'Product ',
     'SubCategory ',
     'Category ',
     ' Product',
@@ -36,7 +36,7 @@ class AddWidget extends StatelessWidget {
     // Add more names for each tab
   ];
   List<String> AddWidgets = [
-    AppRoutes.addCategory, //
+    AppRoutes.addProduct, //
     AppRoutes.addSubCategory,
     AppRoutes.addCategory,
     AppRoutes.addProduct,
