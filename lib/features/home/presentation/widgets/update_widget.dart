@@ -28,7 +28,7 @@ class UpdateWidget extends StatelessWidget {
 
   List<String> servicesNames = [
     //Strings.favorite,
-    'Product ',
+    'Auction ',
     'SubCategory ',
     'Category ',
     ' Product',
@@ -36,7 +36,7 @@ class UpdateWidget extends StatelessWidget {
     // Add more names for each tab
   ];
   List<String> UpdateWidgets = [
-    AppRoutes.updateProductScreen, //
+    AppRoutes.updateAuction, //
     AppRoutes.updateSupCategoryScreen,
     AppRoutes.updateCategoryScreen,
     AppRoutes.updateProductScreen,

@@ -18,5 +18,6 @@ class AppRoutes {
   static String get showAllSubCategory => '/ShowSubCategory';
   static String get showAllUsers => '/ShowAllUsers';
   static String get updateSupCategoryScreen => '/UpdateSupCategory';
-  
+  static String get addAuction => '/addAuction';
+  static String get updateAuction => '/UpdateAuction';
   }
